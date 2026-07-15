@@ -29,7 +29,6 @@ select
     a.currency,
     a.status                as account_status,
     a.opened_date,
-    c.customer_id,
     c.customer_name,
     c.risk_rating,
     c.country
