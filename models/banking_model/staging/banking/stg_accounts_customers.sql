@@ -25,7 +25,6 @@ customers as (
 select
     a.account_id,
     a.account_type,
-    a.branch_id,
     a.currency,
     a.status                as account_status,
     a.opened_date,
