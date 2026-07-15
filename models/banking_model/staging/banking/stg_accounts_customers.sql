@@ -32,7 +32,6 @@ select
     c.customer_id,
     c.customer_name,
     c.risk_rating,
-    c.customer_segment,
     c.country
 from accounts a
 left join customers c
