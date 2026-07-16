@@ -11,7 +11,6 @@ SELECT
     t.issue_type,
     t.description,
     t.email,
-    t.join_date,
     t.status
 FROM {{ ref('customer_tickets') }} t
 
