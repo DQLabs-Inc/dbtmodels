@@ -10,7 +10,6 @@ SELECT
     t.customer_id,
     t.issue_type,
     t.description,
-    TRY_TO_TIMESTAMP(t.ticket_date) AS ticket_date,
     t.resolution_status,
     t.first_name,
     t.last_name,
