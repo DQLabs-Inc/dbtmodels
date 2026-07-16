@@ -9,7 +9,6 @@ SELECT
     t.ticket_id,
     t.customer_id,
     t.issue_type,
-    t.description,
     t.email,
     t.status
 FROM {{ ref('customer_tickets') }} t
