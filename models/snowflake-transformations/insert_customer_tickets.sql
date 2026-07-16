@@ -12,7 +12,6 @@ SELECT
     t.description,
     t.resolution_status,
     t.first_name,
-    t.last_name,
     t.email,
     t.phone_number,
     t.join_date,
