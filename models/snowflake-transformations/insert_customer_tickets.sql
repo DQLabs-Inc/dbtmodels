@@ -10,7 +10,6 @@ SELECT
     t.customer_id,
     t.issue_type,
     t.description,
-    t.first_name,
     t.email,
     t.phone_number,
     t.join_date,
