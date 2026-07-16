@@ -11,7 +11,6 @@ SELECT
     t.issue_type,
     t.description,
     t.email,
-    t.phone_number,
     t.join_date,
     t.status,
     t.loyalty_points
