@@ -12,8 +12,7 @@ SELECT
     t.description,
     t.email,
     t.join_date,
-    t.status,
-    t.loyalty_points
+    t.status
 FROM {{ ref('customer_tickets') }} t
 
 {% if is_incremental() %}
